@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://marlamtos.github.io/sitemap.xml
