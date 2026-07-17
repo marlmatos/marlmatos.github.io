@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false # demo project from the al-folio theme — flip to true (or delete this file) to bring it back
 title: project 3
 description: a project that redirects to another website
 img: assets/img/7.jpg

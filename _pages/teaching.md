@@ -1,12 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: teaching & outreach
+description: Mentoring, teaching, and STEM outreach.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+**STEM Outreach Facilitator**
+Young Eisner Scholars (YES) Program, New York, NY — 2017–2019
+Designed and led hands-on science activities for middle school students from underrepresented backgrounds, promoting STEM engagement and early exposure to scientific careers.
 
-Organize your courses by years, topics, or universities, however you like!
+**Teaching Assistant / Learning Assistant / Peer-Led Team Learning Facilitator**
+Florida International University, Miami, FL — 2014–2017
+Taught undergraduate biology and chemistry courses across multiple semesters, supporting 50+ students per term through laboratory, discussion, and active-learning instruction. Developed instructional materials and provided individualized mentorship to strengthen scientific understanding, communication, and teamwork across diverse learning backgrounds.

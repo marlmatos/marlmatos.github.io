@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - marlmatos
 
-github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+# Pin specific repos here if you want individual repo cards to show up too, e.g.:
+# github_repos:
+#   - marlmatos/marlmatos.github.io

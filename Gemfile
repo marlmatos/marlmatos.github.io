@@ -17,7 +17,8 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer' # disabled locally: fails to compile against very new Xcode/libc++ (v8-memory-span.h enable_view conflict).
+    # jekyll-minifier's JS minification uses ExecJS, which will automatically use Node.js as the runtime instead if Node is installed.
     gem 'unicode_utils'
     gem 'webrick'
 end

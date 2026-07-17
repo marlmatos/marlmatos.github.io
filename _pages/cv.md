@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: # add a PDF to assets/pdf/ and reference its filename here (e.g. cv.pdf) to show a download button; left blank until a real CV is uploaded
+description: Education, research experience, and publications. Data below is pulled from assets/json/resume.json — edit that file to update this page (dates marked blank should be filled in).
 ---

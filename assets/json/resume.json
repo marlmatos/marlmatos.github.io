@@ -1,77 +1,234 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Marliette R. Matos, Ph.D.",
+    "label": "Functional Genomics Postdoctoral Associate, New York Genome Center",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "marliettematos@gmail.com",
+    "phone": "",
+    "url": "https://marlmatos.github.io",
+    "summary": "Human genetics and functional genomics scientist with expertise in large-scale genetic association analyses, multi-omic data integration, and machine learning approaches for regulatory variant interpretation. Experienced in leading cohort-scale research programs, building scalable computational workflows, and translating genomic findings into disease-relevant biological insights.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "New York",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "marlmatos",
+        "url": "https://github.com/marlmatos"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Marliette R Matos",
+        "url": "https://scholar.google.com/citations?user=VcnuiA8AAAAJ&hl=en"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "New York Genome Center",
+      "position": "Functional Genomics Postdoctoral Associate",
+      "url": "https://www.nygenome.org/science-technology/faculty-labs/lappalainen-lab/",
+      "startDate": "2026-03-01",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Relativity"
+        "Expand machine learning approaches for functional variant prioritization through evaluation and integration of complementary predictive methods.",
+        "Build integrative analyses combining functional genomics and CRISPR perturbation data to improve variant-to-gene mapping and causal mechanism prioritization."
+      ]
+    },
+    {
+      "name": "Albert Einstein College of Medicine",
+      "position": "Human Genetics Researcher (PhD research; in collaboration with New York Genome Center, 2022–2026)",
+      "url": "https://www.einsteinmed.edu/",
+      "startDate": "2019-08-01",
+      "endDate": "2026-02-01",
+      "summary": "",
+      "highlights": [
+        "Led a cohort-scale human genetics study in primary CD4+ T cells, generating a pan-CD4+ T-cell multi-omic map to define regulatory mechanisms underlying immune phenotypes, age-associated variation, and disease-relevant biology.",
+        "Identified and prioritized thousands of regulatory variants influencing gene expression and chromatin accessibility through molecular QTL mapping, providing mechanistic context for disease-associated loci across 46 immune-mediated diseases and traits.",
+        "Trained and benchmarked sequence-based machine learning models of regulatory activity against empirical QTL data to predict effects of fine-mapped disease-associated variants in LD.",
+        "Developed scalable computational workflows for cohort-level multi-omic preprocessing, including normalization, quality control, and integrative downstream analysis."
+      ]
+    },
+    {
+      "name": "Icahn School of Medicine at Mount Sinai",
+      "position": "Functional Genetics and Stem Cell Researcher",
+      "url": "https://brennandlab.org/",
+      "startDate": "2017-08-01",
+      "endDate": "2019-07-01",
+      "summary": "",
+      "highlights": [
+        "Investigated molecular and cellular effects of disease-associated genetic variants using stem-cell and gene-editing approaches, generating mechanistic insights into variant function in disease-relevant contexts.",
+        "Standardized experimental workflows, data collection, and analysis practices to reduce technical variability and improve reproducibility across studies."
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "Graduate Student Council, Albert Einstein College of Medicine",
+      "position": "Representative",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "summary": "",
+      "highlights": [
+        "Partnered with faculty and administrators to represent student priorities and recommend curriculum improvements."
+      ]
+    },
+    {
+      "organization": "SACNAS Chapter, Albert Einstein College of Medicine",
+      "position": "Communications Liaison",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "summary": "",
+      "highlights": [
+        "Organized professional development and outreach initiatives that strengthened engagement and supported representation in STEM."
+      ]
+    },
+    {
+      "organization": "Einstein Omics Club, Albert Einstein College of Medicine",
+      "position": "Executive Board Member",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "summary": "",
+      "highlights": [
+        "Co-developed computational workshops and accessible training resources that lowered barriers to genomics data analysis."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Albert Einstein College of Medicine (AECOM)",
+      "url": "https://www.einsteinmed.edu/",
+      "area": "Biomedical Sciences",
+      "studyType": "Ph.D.",
+      "startDate": "",
+      "endDate": "2026-02-01",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "courses": []
+    },
+    {
+      "institution": "Albert Einstein College of Medicine (AECOM)",
+      "url": "https://www.einsteinmed.edu/",
+      "area": "Biomedical Sciences",
+      "studyType": "M.S.",
+      "startDate": "",
+      "endDate": "2021-05-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Florida International University (FIU)",
+      "url": "https://www.fiu.edu/",
+      "area": "Chemistry",
+      "studyType": "B.S.",
+      "startDate": "",
+      "endDate": "2017-05-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Invited Speaker, PhD Thesis Laboratory Declaration Celebration",
+      "date": "2024",
+      "awarder": "Albert Einstein College of Medicine",
+      "summary": ""
+    },
+    {
+      "title": "Scholarship, Summer Institutes of Statistical Genetics (SISG)",
+      "date": "2023",
+      "awarder": "University of Washington",
+      "summary": ""
+    },
+    {
+      "title": "NIA Diversity Supplement Grant",
+      "date": "2021",
+      "awarder": "Albert Einstein College of Medicine",
+      "summary": ""
+    },
+    {
+      "title": "Invited Speaker, Chemistry Alumni Day: “Roadmap to Grad School”",
+      "date": "2019",
+      "awarder": "Florida International University",
+      "summary": ""
+    },
+    {
+      "title": "Art of the Brain Selected Image, “Art of the Brain Exhibition”",
+      "date": "2018",
+      "awarder": "Friedman Brain Institute",
+      "summary": ""
+    },
+    {
+      "title": "NRC Nuclear-Career Academic Bridge Scholarship",
+      "date": "2012",
+      "awarder": "Miami Dade College",
+      "summary": ""
     }
   ],
   "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
+  "publications": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "name": "Integrating multi-omic QTLs and predictive models reveals regulatory architectures at immune related GWAS loci in CD4+ T cells",
+      "publisher": "medRxiv (preprint)",
+      "releaseDate": "2026-01-27",
+      "url": "https://doi.org/10.64898/2026.01.27.26344979",
+      "summary": "First author."
     },
+    {
+      "name": "Using the dCas9-KRAB system to repress gene expression in hiPSC-derived NGN2 neurons",
+      "publisher": "STAR Protocols",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.1016/j.xpro.2021.100580",
+      "summary": "Vol. 2(2), 100580."
+    },
+    {
+      "name": "Integration of CRISPR-engineering and hiPSC-based models of psychiatric genomics",
+      "publisher": "Molecular and Cellular Neuroscience",
+      "releaseDate": "2020",
+      "url": "https://doi.org/10.1016/j.mcn.2020.103532",
+      "summary": "First author. Vol. 107, 103532."
+    },
+    {
+      "name": "Synergistic effects of common schizophrenia risk variants",
+      "publisher": "Nature Genetics",
+      "releaseDate": "2019",
+      "url": "https://doi.org/10.1038/s41588-019-0497-5",
+      "summary": "Co-author. Vol. 51(10), pp. 1475-1485."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Computational",
+      "keywords": ["Human genetics", "Statistical genetics", "Multi-omic data integration", "scRNA-seq", "ATAC-seq", "Variant analysis", "Molecular QTL mapping", "Regulatory genomics", "Machine learning for functional genomics", "Data harmonization and QC", "R", "Python", "Nextflow", "Unix", "PLINK"]
+    },
+    {
+      "name": "Experimental",
+      "keywords": ["NGS library preparation", "CRISPR-based assays", "Cell culture", "Molecular biology", "Cellular imaging"]
+    }
+  ],
+  "languages": [
     {
       "language": "English",
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Running",
+      "keywords": ["Completed the 2023 NYC Marathon"]
+    },
+    {
+      "name": "Winter sports",
+      "keywords": []
+    }
+  ],
   "references": [],
   "projects": []
 }

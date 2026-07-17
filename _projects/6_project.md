@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false # demo project from the al-folio theme — flip to true (or delete this file) to bring it back
 title: project 6
 description: a project with no image
 img:

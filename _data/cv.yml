@@ -1,97 +1,119 @@
+# NOTE: as long as `jekyll_get_json` / `assets/json/resume.json` are active in _config.yml,
+# the /cv/ page renders from resume.json, not this file. This file is kept in sync as a
+# fallback in case you switch the CV rendering method later (remove the jekyll_get_json
+# block in _config.yml to make this the active source again).
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Marliette R. Matos, Ph.D.
+    - name: Current Position
+      value: Functional Genomics Postdoctoral Associate, New York Genome Center
+    - name: Location
+      value: New York, NY
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D., Biomedical Sciences
+      institution: Albert Einstein College of Medicine (AECOM), Bronx, NY
+      year: "2026"
+    - title: M.S., Biomedical Sciences
+      institution: Albert Einstein College of Medicine (AECOM), Bronx, NY
+      year: "2021"
+    - title: B.S., Chemistry
+      institution: Florida International University (FIU), Miami, FL
+      year: "2017"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Functional Genomics Postdoctoral Associate
+      institution: New York Genome Center, New York, NY
+      year: March 2026 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Expand machine learning approaches for functional variant prioritization through evaluation and integration of complementary predictive methods.
+        - Build integrative analyses combining functional genomics and CRISPR perturbation data to improve variant-to-gene mapping and causal mechanism prioritization.
+    - title: Human Genetics Researcher (PhD research, with New York Genome Center from 2022)
+      institution: Albert Einstein College of Medicine, Bronx, NY
+      year: August 2019 - February 2026
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led a cohort-scale human genetics study in primary CD4+ T cells, generating a pan-CD4+ T-cell multi-omic map of regulatory mechanisms underlying immune phenotypes, age-associated variation, and disease-relevant biology.
+        - Identified and prioritized thousands of regulatory variants via molecular QTL mapping across 46 immune-mediated diseases and traits.
+        - Trained and benchmarked sequence-based machine learning models of regulatory activity against empirical QTL data.
+        - Developed scalable computational workflows for cohort-level multi-omic preprocessing and integrative analysis.
+    - title: Functional Genetics and Stem Cell Researcher
+      institution: Icahn School of Medicine at Mount Sinai, New York, NY
+      year: August 2017 - July 2019
       description:
+        - Investigated molecular and cellular effects of disease-associated genetic variants using stem-cell and gene-editing approaches.
+        - Standardized experimental workflows, data collection, and analysis practices across studies.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Selected Presentations
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - 3 invited talks at national and international scientific meetings, including ASHG 2024.
+    - 4 poster presentations at national conferences and symposia, including Biology of Genomes 2024.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: "2024"
+      items:
+        - Invited Speaker, PhD Thesis Laboratory Declaration Celebration, AECOM
+    - year: "2023"
+      items:
+        - Scholarship, Summer Institutes of Statistical Genetics (SISG), University of Washington
+    - year: "2021"
+      items:
+        - NIA Diversity Supplement Grant, AECOM
+    - year: "2019"
+      items:
+        - "Invited Speaker, Chemistry Alumni Day, FIU: \"Roadmap to Grad School\""
+    - year: "2018"
+      items:
+        - "Art of the Brain Selected Image, Friedman Brain Institute: \"Art of the Brain Exhibition\""
+    - year: "2012"
+      items:
+        - NRC Nuclear-Career Academic Bridge Scholarship, Miami Dade College
 
-- title: Academic Interests
+- title: Leadership
+  type: time_table
+  contents:
+    - title: Graduate Student Council Representative
+      institution: AECOM
+      year: 2022 - 2024
+      description:
+        - Partnered with faculty and administrators to represent student priorities and recommend curriculum improvements.
+    - title: SACNAS Chapter Communications Liaison
+      institution: AECOM
+      year: 2022 - 2024
+      description:
+        - Organized professional development and outreach initiatives that strengthened engagement and supported representation in STEM.
+    - title: Executive Board Member, Einstein Omics Club
+      institution: AECOM
+      year: "2023"
+      description:
+        - Co-developed computational workshops and accessible training resources that lowered barriers to genomics data analysis.
+
+- title: Core Expertise
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Computational
       items:
-        - Description 1.
-        - Description 2.
+        - Human genetics, statistical genetics, multi-omic data integration
+        - scRNA-seq, ATAC-seq, variant analysis, molecular QTL mapping
+        - Regulatory genomics, machine learning for functional genomics
+        - R, Python, Nextflow, Unix, PLINK
+    - title: Experimental
+      items:
+        - NGS library preparation, CRISPR-based assays
+        - Cell culture, molecular biology, cellular imaging
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Running (2023 NYC Marathon finisher), winter sports.

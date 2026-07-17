@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: github
+description: GitHub activity, stats, and trophies — powered by github-readme-stats and github-profile-trophy.
 nav: true
 nav_order: 3
+external_url: https://github.com/marlmatos # clicking "github" in the nav goes straight to the profile instead of this page; this page (with the stats/trophy widgets) still exists at /repositories/ if you want to link to it from elsewhere
 ---
 
 ## GitHub users
